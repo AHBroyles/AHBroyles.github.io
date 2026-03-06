@@ -1,8 +1,44 @@
 <!DOCTYPE html>
-<html>
-<head><title>Austin Broyles</title></head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Austin Broyles</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f9f9f9; color: #333; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px 20px; }
+    .card { background: white; border-radius: 16px; padding: 48px; max-width: 480px; width: 100%; text-align: center; box-shadow: 0 4px 24px rgba(0,0,0,0.07); }
+    h1 { font-size: 2em; font-weight: 700; margin-bottom: 8px; }
+    .subtitle { color: #666; font-size: 1em; margin-bottom: 32px; }
+    .links { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 16px; }
+    .links a { color: #0070f3; text-decoration: none; font-size: 0.9em; }
+    .links a:hover { text-decoration: underline; }
+    .social { display: flex; gap: 20px; justify-content: center; margin-top: 24px; flex-wrap: wrap; }
+    .social a { color: #555; text-decoration: none; font-size: 0.9em; }
+    .social a:hover { color: #0070f3; }
+    .divider { border: none; border-top: 1px solid #eee; margin: 28px 0; }
+    .footer { color: #aaa; font-size: 0.8em; margin-top: 32px; }
+  </style>
+</head>
 <body>
-  <h1>Austin Broyles</h1>
-<p>Personal site.</p>
+  <div class="card">
+    <h1>Austin Broyles</h1>
+    <p class="subtitle">Frisco, TX</p>
+
+    <div class="social">
+      <a href="https://www.linkedin.com/in/austinbroyles" target="_blank">LinkedIn</a>
+      <a href="https://x.com/Austin_Broyles" target="_blank">X / Twitter</a>
+      <a href="https://www.instagram.com/austinbroyles" target="_blank">Instagram</a>
+    </div>
+
+    <hr class="divider">
+
+    <div class="links">
+      <a href="/privacy">Privacy Policy</a>
+      <a href="/terms">Terms of Service</a>
+    </div>
+  </div>
+
+  <p class="footer">© 2026 Austin Broyles</p>
 </body>
 </html>
